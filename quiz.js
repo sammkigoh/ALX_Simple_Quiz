@@ -11,7 +11,7 @@ const feedbackElement = document.getElementById('feedback');
 if (selectedRadioButton) {
     const userAnswer = selectedRadioButton.value;
    // check if the user's answer is correct
-   if (userAnswer=== correctAnswer) {
+   if (userAnswer === correctAnswer) {
     feedbackElement.textContent="Correct! Well done.";
    }  else {
     feedbackElement.textContent="That's incorrect. Try again!";
