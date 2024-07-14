@@ -16,10 +16,10 @@ if (selectedRadioButton) {
    }  else {
     feedbackElement.textContent="That's incorrect. Try again!";
    } 
-   } else {
+} else {
     feedbackElement.textContent= "No answer selected.";
 }
 }
 //adding an event listener to the 'submit answer' button to call checkAnswer on click 
-const submitButton = document.getElementById ('submit-answer');
-submitButton.addEventListener ('click', checkAnswer);
+const submitButton = document.getElementById('submit-answer');
+submitButton.addEventListener('click', checkAnswer);
